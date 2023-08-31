@@ -13,6 +13,8 @@
 
 `onReachBottom`
 
+`pageScrollTo`
+
 持续优化与完善中...
 
 ### 引用
@@ -24,7 +26,7 @@ yarn add spa-hooks -D
 
 ### 使用
 ```js
-import { onReady, onResize, onShow, onHide, onPageScroll, onReachBottom } from 'spa-hooks'
+import { onReady, onResize, onShow, onHide, onPageScroll, onReachBottom, pageScrollTo } from 'spa-hooks'
 
 onReady(() => {
   console.log('onReady')
@@ -50,7 +52,13 @@ onPageScroll((e) => {
 })
 
 onReachBottom(() => {
-  console.log(4)
+  console.log('onReachBottom')
+})
+
+// 将页面滚动到目标位置
+pageScrollTo({
+  scrollTop: 1000,
+  duration: 300
 })
 ```
 

@@ -1,6 +1,6 @@
 {
   "name": "spa-hooks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "SPA hooks onShow onHide onPageScroll onReachBottom...",
   "main": "index.js",
   "scripts": {

@@ -128,7 +128,7 @@ export function onReachBottom (hook) {
 export function pageScrollTo(options = {}) {
   const opts = Object.assign({
     scrollTop: 0,
-    duration: 0
+    duration: 300
   }, options)
 
   const startPosition = window.scrollY || window.pageYOffset;
