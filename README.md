@@ -1,2 +1,2 @@
-# spa-plugin
-spa-plugin
+# spa-hooks
+spa-hooks

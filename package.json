@@ -1,0 +1,25 @@
+{
+  "name": "spa-hooks",
+  "version": "1.0.0",
+  "description": "spa-plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adangs/spa-hooks.git"
+  },
+  "keywords": [
+    "onShow",
+    "onHide",
+    "onPageScroll",
+    "onReachBottom"
+  ],
+  "author": "Adang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adangs/spa-hooks/issues"
+  },
+  "homepage": "https://github.com/Adangs/spa-hooks#readme"
+}
