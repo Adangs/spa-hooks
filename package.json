@@ -1,7 +1,7 @@
 {
   "name": "spa-hooks",
-  "version": "1.0.0",
-  "description": "spa-plugin",
+  "version": "1.0.1",
+  "description": "SPA hooks onShow onHide onPageScroll onReachBottom...",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
